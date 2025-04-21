@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Poppins", serif;
+}
+
+input.datatable-input {
+    width: 100% !important;
+    min-width: 50px !important;
+}
+
+.datatable-top {
+    display: flex !important;
+    justify-content: end !important;
+}
+
+#pagination-table thead tr th,
+#pagination-table-100 thead tr th {
+    height: 50px !important;
+    background: white !important;
+}
+
+#pagination-table tbody tr td,
+#pagination-table-100 tbody tr td {
+    border: 1px solid rgb(232, 232, 232) !important;
+}
+
+#pagination-table tbody tr:nth-child(odd),
+#pagination-table-100 tbody tr:nth-child(odd) {
+    background-color: #ebedf3;
+    /* Warna latar belakang untuk baris ganjil */
+}
+
+#pagination-table tbody tr:nth-child(even),
+#pagination-table-100 tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    /* Warna latar belakang untuk baris genap */
+}
+
+.select2-selection {
+    border: 0 !important;
+}
+
+#logo-sidebar i.bi {
+    color: red;
+}
+
+.ocean {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    /* Sesuaikan tinggi gelombang */
+}
+
+.ocean svg {
+    display: block;
+    width: 120%;
+    height: 100%;
+}
+
+.ocean use {
+    animation: wave 16s linear infinite alternate-reverse;
+    will-change: transform;
+    transform-origin: center;
+    /* Menambahkan transform-origin */
+}
+
+.ocean use:nth-child(2) {
+    animation-delay: -6s;
+}
+
+div.body.news-announcement p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(68, 68, 68);
+}
+
+table.tables thead tr {
+    height: 60px;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+table.tables tbody td {
+    border: 1px solid rgb(232, 232, 232);
+    padding: 0 15px;
+}
+
+table.tables tbody tr {
+    height: 50px;
+}
+
+table.tables tbody tr:nth-child(odd) td {
+    background-color: #ebedf3; /* Sesuaikan warna latar belakang */
+}
+
+label.required::after {
+    content: " *";
+    color: red;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(-70%);
+        /* Penyesuaian nilai translateX */
+    }
+
+    100% {
+        transform: translateX(60%);
+        /* Penyesuaian nilai translateX */
+    }
+}
