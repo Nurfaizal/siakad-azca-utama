@@ -80,7 +80,7 @@
                                 class="font-semibold">Sulawesi-Selatan</span></h1>
                     </div>
                     <h1 class="mb-10 text-md md:text-xl font-medium text-center text-slate-600">Silahkan masukkan akun
-                        anda</h1>
+                        anda tes</h1>
                     <form class="space-y-4 md:mx-14 md:space-y-6" action="/login/autentikasi" method="post">
                         @csrf
                         <div>
